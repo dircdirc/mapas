@@ -52,6 +52,18 @@ button:hover {
 /*
 Nav Section Width HERO
 */
+.map {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
 .main-head {
   background: #2e2e38;
   color: white;
@@ -152,7 +164,7 @@ nav ul {
   padding: 1rem 0rem;
   text-decoration: underline;
   font-size: 1rem;
-  /* Optional 
+  /* Optional
   text-decoration-thickness: 0.5rem;
   */
 }
@@ -209,7 +221,7 @@ nav ul {
   display: flex;
   align-items: center;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }*/
 .benefits-head {
   background: #2e2e38;
