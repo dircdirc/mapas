@@ -1,0 +1,198 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background: #000000;
+  height: 100%;
+} */
+.container {
+  background: transparent; /* rgb(62, 64, 65);
+  height: 200%;
+  width: 99%;*/
+  margin: auto;
+  position: relative;
+}
+.hidden {
+  display: none;
+}
+/*
+.box1,
+.box2,
+.box3 {
+ width: 20%;
+  height: 20%;
+  background: rgb(62, 64, 65);
+} */
+
+.box1 {
+  position: absolute;
+  width: 47%;
+  height: 99%;
+  top: 2rem;
+  right: 0%;
+  bottom: 19rem;
+  right: 0rem;
+  /*transform: translate(-10%, -50%);*/
+}
+.box2 {
+  /*background: #2e2e38;*/
+  position: center;
+
+  top: 2rem;
+}
+
+.box3 {
+  /*background: #2e2e38;*/
+  /* display: absolute; */
+  top: 0rem;
+  right: 0rem;
+  height: auto;
+  width: 35%;
+  /* background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+#edo {
+  color: #ffe600;
+  /* z-index: 3; */
+  right: 0;
+  /*position: absolute;*/
+  /* margin-top: 20px;
+  margin-left: 350px; */
+  font-size: 2em;
+}
+#mapMEX {
+  width: 350px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* fixed Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgb(62, 64, 65);
+  margin: 15% auto;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: whitesmoke;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*quotes*/
+
+/* * {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+} */
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
